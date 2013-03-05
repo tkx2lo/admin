@@ -1,0 +1,4 @@
+admin
+=====
+
+HTTP/1.1 200 OK &lt;?xml version="1.0" encoding="UTF-8"?> &lt;GetHealthCheckResponse xmlns="https://route53.amazonaws.com/doc/2012-12-12/">    &lt;HealthCheck>       &lt;Id>abcdef11-2222-3333-4444-555555fedcba&lt;/Id>       &lt;CallerReference>example.com 192.0.2.17&lt;/CallerReference>       &lt;HealthCheckConfig>          &lt;IPAddress>192.0.2.17&lt;/IPAddress>          &lt;Port>80&lt;/Port>          &lt;Type>HTTP&lt;/Type>          &lt;ResourcePath>/docs/route-53-health-check.html&lt;/ResourcePath>          &lt;FullyQualifiedDomainName>example.com&lt;/FullyQualifiedDomainName>       &lt;/HealthCheckConfig>    &lt;/HealthCheck> &lt;/GetHealthCheckResponse>
